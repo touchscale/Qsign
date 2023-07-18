@@ -1,6 +1,6 @@
 1.下载安装jdk并配置环境变量（教程：https://blog.csdn.net/Marvin_996_ICU/article/details/106240065）
 2.将升级icqq到0.4.11（指令：pnpm install icqq@0.4.11 -w）
-3.打开文件unidbg-fetch-qsign\txlib\8.9.68\config.json，修改key为任意数字（用默认的也可以）
+3.打开文件unidbg-fetch-qsign\txlib\8.9.68\config.json，修改key为任意数字（用默认的也可以，默认值为114514）
 4.打开unidbg-fetch-qsign文件夹里的一键startAPI.bat
 5.打开（Miao-Yunzai/Yunzai-Bot）\config\config\bot.yaml 在最底下添加 sign_api_addr: http://127.0.0.1:801/sign?key=第3步填写的key的值
 6.打开（Miao-Yunzai/Yunzai-Bot）\config\config\qq.yaml 更改为协议1或2（ 1:安卓手机、 2:aPad）
