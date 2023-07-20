@@ -1,35 +1,29 @@
-# 签名api一键包（Windows）
+<div align="center">
+<br>
+<h1>签名api一键包（Windows）<img src='https://gitee.com/touchscale/Qsign/badge/star.svg?theme=dark'  alt='star'></img></a></h1>
+<br>
+</div> 
 
-#### 介绍
-Windows的一键搭建签名api
+# 介绍
+Windows的签名api一键搭建包
 
+## 使用教程
 
+1. [点击这里](https://share.weiyun.com/4nG2DbIn)下载jdk软件（想下载其他版本可以看jdk下载地址（32位系统或想用其他版本的可查看）.txt里的地址自行下载）
+2. 克隆本仓库或在发行版中下载对应版本
+```
+git clone https://gitee.com/touchscale/Qsign
+```
 
-#### 安装教程
+3. 按照使用教程.txt里的教程完成搭建
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 资源
 
-#### 使用说明
+* Miao-Yunzai: 喵版Yunzai [Gitee](https://gitee.com/yoimiya-kokomi/Miao-Yunzai) / [Github](https://github.com/yoimiya-kokomi/Miao-Yunzai)
+* Yunzai-V3 ：Yunzai V3 - 喵喵维护版（使用 icqq）[Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)
+* miao-plugin: 喵喵插件 [Gitee](https://gitee.com/yoimiya-kokomi/miao-plugin) / [Github](https://github.com/yoimiya-kokomi/miao-plugin)
+* 插件库：[Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index) / [GitHub](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 免责声明
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+功能仅限内部交流与小范围使用，请勿用于以盈利为目的的场景

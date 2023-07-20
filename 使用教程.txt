@@ -1,20 +1,20 @@
-1.°²×°jdk²¢ÅäÖÃ»·¾³±äÁ¿£¨½Ì³Ì£ºhttps://blog.csdn.net/Marvin_996_ICU/article/details/106240065£©
-2.½«Éı¼¶icqqµ½0.4.11£¨Ö¸Áî£ºpnpm install icqq@0.4.11 -w£©
-3.´ò¿ªÎÄ¼şunidbg-fetch-qsign\txlib\8.9.68\config.json£¬ĞŞ¸ÄkeyÎªÈÎÒâÊı×Ö£¨ÓÃÄ¬ÈÏµÄÒ²¿ÉÒÔ£©
-4.´ò¿ªunidbg-fetch-qsignÎÄ¼ş¼ĞÀïµÄÒ»¼üstartAPI.bat
-5.´ò¿ª£¨Miao-Yunzai/Yunzai-Bot£©\config\config\bot.yaml ÔÚ×îµ×ÏÂÌí¼Ó sign_api_addr: http://127.0.0.1:801/sign?key=µÚ3²½ÌîĞ´µÄkeyµÄÖµ
-6.´ò¿ª£¨Miao-Yunzai/Yunzai-Bot£©\config\config\qq.yaml ¸ü¸ÄÎªĞ­Òé1»ò2£¨ 1:°²×¿ÊÖ»ú¡¢ 2:aPad£©
-7.´ò¿ª£¨Miao-Yunzai/Yunzai-Bot£©\config\config\bot.yaml ½«ÈÕÖ¾µÈ¼¶¸ÄÎªdebug
+1.ä¸‹è½½å®‰è£…jdkå¹¶é…ç½®ç¯å¢ƒå˜é‡ï¼ˆæ•™ç¨‹ï¼šhttps://blog.csdn.net/Marvin_996_ICU/article/details/106240065ï¼‰
+2.å°†å‡çº§icqqåˆ°0.4.11ï¼ˆæŒ‡ä»¤ï¼špnpm install icqq@0.4.11 -wï¼‰
+3.æ‰“å¼€æ–‡ä»¶unidbg-fetch-qsign\txlib\8.9.68\config.jsonï¼Œä¿®æ”¹keyä¸ºä»»æ„æ•°å­—ï¼ˆç”¨é»˜è®¤çš„ä¹Ÿå¯ä»¥ï¼Œé»˜è®¤å€¼ä¸º114514ï¼‰
+4.æ‰“å¼€unidbg-fetch-qsignæ–‡ä»¶å¤¹é‡Œçš„ä¸€é”®startAPI.bat
+5.æ‰“å¼€ï¼ˆMiao-Yunzai/Yunzai-Botï¼‰\config\config\bot.yaml åœ¨æœ€åº•ä¸‹æ·»åŠ  sign_api_addr: http://127.0.0.1:801/sign?key=ç¬¬3æ­¥å¡«å†™çš„keyçš„å€¼
+6.æ‰“å¼€ï¼ˆMiao-Yunzai/Yunzai-Botï¼‰\config\config\qq.yaml æ›´æ”¹ä¸ºåè®®1æˆ–2ï¼ˆ 1:å®‰å“æ‰‹æœºã€ 2:aPadï¼‰
+7.æ‰“å¼€ï¼ˆMiao-Yunzai/Yunzai-Botï¼‰\config\config\bot.yaml å°†æ—¥å¿—ç­‰çº§æ”¹ä¸ºdebug
 
 
-Æô¶¯ß÷áÌ/ÔÆáÌÊ±¿´µ½ [qsign]getSign MessageSvc.PbSendMsg result: {"code":0,"msg":"success","data":{"token":"51317179432f5049344e5177","extra":"121b56315f414e445f53515f382e392e36385f343236345f5959425f44","sign":"0c0b88b1f13a1229a8edf6391d30e4061ee3565e9bc8340b0c3a910415276ce9840ec9fd3dc86e5b85a74715feb94fc8","o3did":"Q1qyC/PI4NQw","requestCallback":[]}} ÏñÕâÑùµÄÈÕÖ¾Êä³öËµÃ÷µ÷ÓÃ³É¹¦
+å¯åŠ¨å–µå´½/äº‘å´½æ—¶çœ‹åˆ°  [qsign]getSign MessageSvc.PbSendMsg result: {"code":0,"msg":"success","data":{"token":"51317179432f5049344e5177","extra":"121b56315f414e445f53515f382e392e36385f343236345f5959425f44","sign":"0c0b88b1f13a1229a8edf6391d30e4061ee3565e9bc8340b0c3a910415276ce9840ec9fd3dc86e5b85a74715feb94fc8","o3did":"Q1qyC/PI4NQw","requestCallback":[]}} åƒè¿™æ ·çš„æ—¥å¿—è¾“å‡ºè¯´æ˜è°ƒç”¨æˆåŠŸ
 
 
-Æô¶¯ß÷áÌ/ÔÆáÌÊ±Î´¿´µ½Ç©Ãûapi×¢²áÒì³£µÄÌáĞÑ»òÒ»¼üstartAPI.bat´°¿ÚÓĞ[FEKit_]info: device_token.h:309 DeviceToken::saveToken ok! expireTime:1688699906ÏñÕâÑùµÄÈÕÖ¾ËµÃ÷×¢²á³É¹¦
+å¯åŠ¨å–µå´½/äº‘å´½æ—¶æœªçœ‹åˆ°ç­¾åapiæ³¨å†Œå¼‚å¸¸çš„æé†’æˆ–ä¸€é”®startAPI.batçª—å£æœ‰[FEKit_]info: device_token.h:309 DeviceToken::saveToken ok! expireTime:1688699906åƒè¿™æ ·çš„æ—¥å¿—è¯´æ˜æ³¨å†ŒæˆåŠŸ
 
 
-×¢Òâ£º
-1.ÓÉÓÚÊ¹ÓÃÁËaxiosÇëÇó£¬Ê¹ÓÃĞèÒª°²×°ÒÀÀµaxios£¨Ö¸Áî£ºpnpm install axios -w/pnpm add axios -w£©
-2.unidbg-fetch-qsign1.1.4¼°1.1.5±ØĞëÅäºÏicqq0.4.11Ê¹ÓÃ
-3.Èç¹ûÎ´Éı¼¶icqqÇë±à¼­unidbg-fetch-qsignÎÄ¼ş¼ĞÀïµÄÒ»¼üstartAPI.bat£¬½«8.9.68¸ÄÎª8.9.63
-4.icqq0.4.11Ö§³ÖÁËunidbg-fetch-qsign1.1.4µÄ×Ô¶¯×¢²áÊµÀı£¬Èç²»ÏëÊ¹ÓÃÇë½«unidbg-fetch-qsign\txlib\8.9.68ÎÄ¼ş¼ĞÏÂµÄconfig.jsonÀïµÄ"auto_register": true,¸ü¸ÄÎª"auto_register": false,
+æ³¨æ„ï¼š
+1.ç”±äºä½¿ç”¨äº†axiosè¯·æ±‚ï¼Œä½¿ç”¨éœ€è¦å®‰è£…ä¾èµ–axiosï¼ˆæŒ‡ä»¤ï¼špnpm install axios -w/pnpm add axios -wï¼‰
+2.unidbg-fetch-qsign1.1.4åŠ1.1.5å¿…é¡»é…åˆicqq0.4.11ä½¿ç”¨
+3.å¦‚æœæœªå‡çº§icqqè¯·ç¼–è¾‘unidbg-fetch-qsignæ–‡ä»¶å¤¹é‡Œçš„ä¸€é”®startAPI.batï¼Œå°†8.9.68æ”¹ä¸º8.9.63
+4.icqq0.4.11æ”¯æŒäº†unidbg-fetch-qsign1.1.4çš„è‡ªåŠ¨æ³¨å†Œå®ä¾‹ï¼Œå¦‚ä¸æƒ³ä½¿ç”¨è¯·å°†unidbg-fetch-qsign\txlib\8.9.68æ–‡ä»¶å¤¹ä¸‹çš„config.jsoné‡Œçš„"auto_register": true,æ›´æ”¹ä¸º"auto_register": false,
