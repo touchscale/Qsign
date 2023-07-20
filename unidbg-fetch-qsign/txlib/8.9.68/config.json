@@ -5,7 +5,6 @@
   },
   "key": "114514",
   "auto_register": true,
-  "reload_interval": 40,
   "protocol": {
     "qua": "V1_AND_SQ_8.9.68_4264_YYB_D",
     "version": "8.9.68",
@@ -15,5 +14,8 @@
     "dynarmic": false,
     "unicorn": true,
     "debug": true
-  }
+  },
+  "black_list": [
+    1008611
+  ]
 }
