@@ -26,6 +26,7 @@ git clone https://gitee.com/touchscale/Qsign
 * Yunzai-V3 ：Yunzai V3 - 喵喵维护版（使用 icqq）[Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)
 * miao-plugin: 喵喵插件 [Gitee](https://gitee.com/yoimiya-kokomi/miao-plugin) / [Github](https://github.com/yoimiya-kokomi/miao-plugin)
 * 插件库：[Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index) / [GitHub](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)
+* unidbg-fetch-qsign：[GitHub](https://github.com/fuqiuluo/unidbg-fetch-qsign)
 
 ## 免责声明
 
