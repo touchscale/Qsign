@@ -1,6 +1,6 @@
 1.下载安装jdk并配置环境变量（教程：https://blog.csdn.net/Marvin_996_ICU/article/details/106240065）
-2.将升级icqq到0.4.11（指令：pnpm install icqq@0.4.11 -w）
-3.打开文件unidbg-fetch-qsign\txlib\8.9.68\config.json，修改key为任意数字（用默认的也可以，默认值为114514）
+2.将升级icqq到0.4.12（指令：pnpm install icqq@0.4.12 -w）
+3.打开文件unidbg-fetch-qsign\txlib\QQ版本（如:8.9.68）\config.json，修改key为任意数字（用默认的也可以，默认值为114514）
 4.打开unidbg-fetch-qsign文件夹里的一键startAPI.bat
 5.打开（Miao-Yunzai/Yunzai-Bot）\config\config\bot.yaml 在最底下添加 sign_api_addr: http://127.0.0.1:801/sign?key=第3步填写的key的值
 6.打开（Miao-Yunzai/Yunzai-Bot）\config\config\qq.yaml 更改为协议1或2（ 1:安卓手机、 2:aPad）
@@ -15,6 +15,6 @@
 
 注意：
 1.由于使用了axios请求，使用需要安装依赖axios（指令：pnpm install axios -w/pnpm add axios -w）
-2.unidbg-fetch-qsign1.1.4~1.1.6必须配合icqq0.4.11使用
+2.unidbg-fetch-qsign1.1.4~1.1.6必须配合icqq0.4.11/0.4.12使用
 3.如果未升级icqq请编辑unidbg-fetch-qsign文件夹里的一键startAPI.bat，将8.9.68改为8.9.63
 4.icqq0.4.11支持了unidbg-fetch-qsign1.1.4的自动注册实例，如不想使用请将unidbg-fetch-qsign\txlib\8.9.68文件夹下的config.json里的"auto_register": true,更改为"auto_register": false,

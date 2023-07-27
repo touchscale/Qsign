@@ -12,13 +12,13 @@ Windows的签名api一键搭建包
 
 ## 使用教程
 
-1. [点击这里](https://share.weiyun.com/4nG2DbIn)下载jdk软件（想下载其他版本可以看jdk下载地址（32位系统或想用其他版本的可查看）.txt里的地址自行下载）
+1. [点击这里](https://share.weiyun.com/4nG2DbIn)或者[这里](https://cowtransfer.com/s/3c4534a336c04b)下载jdk软件（想下载其他版本可以看 **jdk下载地址（32位系统或想用其他版本的可查看）.txt** 里的地址自行下载）
 2. 克隆本仓库或在发行版中下载对应版本
 ```
 git clone https://gitee.com/touchscale/Qsign
 ```
 
-3. 按照使用教程.txt里的教程完成搭建
+3. 按照 **使用教程.txt** 里的教程完成搭建
 
 ## 资源
 
