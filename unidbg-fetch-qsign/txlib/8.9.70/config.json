@@ -13,7 +13,7 @@
   "unidbg": {
     "dynarmic": false,
     "unicorn": true,
-    "debug": false
+    "debug": true
   },
   "black_list": [
     1008611
