@@ -1,8 +1,6 @@
 <div align="center">
-<a href='https://gitee.com/touchscale/Qsign'><img src='https://gitee.com/touchscale/Qsign/widgets/widget_4.svg' alt='Fork me on Gitee'></img></a>
-</div>
-<div align="center">
 <br>
+<a href='https://gitee.com/touchscale/Qsign'><img src='https://gitee.com/touchscale/Qsign/widgets/widget_4.svg' alt='Fork me on Gitee'></img></a>
 <h1>签名api一键包（Windows）
 <img src='https://gitee.com/touchscale/Qsign/badge/star.svg?theme=dark'  alt='star'></img>
 <img src='https://gitee.com/touchscale/Qsign/badge/fork.svg?theme=dark'  alt='fork'></img>
