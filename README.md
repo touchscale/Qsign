@@ -1,5 +1,6 @@
 <div align="center">
 <br>
+<a href='https://gitee.com/touchscale/Qsign'><img src='https://gitee.com/touchscale/Qsign/widgets/widget_4.svg' alt='Fork me on Gitee'></img></a>
 <h1>签名api一键包（Windows）
 <img src='https://gitee.com/touchscale/Qsign/badge/star.svg?theme=dark'  alt='star'></img>
 <img src='https://gitee.com/touchscale/Qsign/badge/fork.svg?theme=dark'  alt='fork'></img>
@@ -31,3 +32,8 @@ git clone https://gitee.com/touchscale/Qsign
 ## 免责声明
 
 功能仅限内部交流与小范围使用，请勿用于以盈利为目的的场景
+
+<div align="center">
+
+[![Wangsheng Funeral Parlor/签名api一键包（Windows）](https://gitee.com/touchscale/Qsign/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/touchscale/Qsign)
+</div>
