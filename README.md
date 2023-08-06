@@ -34,3 +34,8 @@ git clone https://gitee.com/touchscale/Qsign
 ## 免责声明
 
 功能仅限内部交流与小范围使用，请勿用于以盈利为目的的场景
+
+<div align="center">
+
+[![Wangsheng Funeral Parlor/签名api一键包（Windows）](https://gitee.com/touchscale/Qsign/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/touchscale/Qsign)
+</div>
