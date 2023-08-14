@@ -15,6 +15,4 @@
 
 注意：
 1.由于使用了axios请求，使用需要安装依赖axios（指令：pnpm install axios -w/pnpm add axios -w）
-2.unidbg-fetch-qsign1.1.4及以上版本必须配合icqq0.4.11及以上版本使用
-3.如果未升级icqq至0.4.12及以上版本请编辑unidbg-fetch-qsign文件夹里的一键startAPI.bat，将8.9.70改为8.9.68
-4.如不想使用请自动注册实例功能将unidbg-fetch-qsign\txlib\QQ版本（如:8.9.68）文件夹下的config.json里的"auto_register": true,更改为"auto_register": false,
+2.如不想使用请自动注册实例功能将unidbg-fetch-qsign\txlib\QQ版本（如:8.9.68）文件夹下的config.json里的"auto_register": true,更改为"auto_register": false,
