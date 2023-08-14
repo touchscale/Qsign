@@ -29,9 +29,9 @@ git clone https://github.com/touchscale/Qsign
 
 ## 资源
 
-* Miao-Yunzai(喵版Yunzai):  [Gitee](https://gitee.com/yoimiya-kokomi/Miao-Yunzai) / [Github](https://github.com/yoimiya-kokomi/Miao-Yunzai)
-* Yunzai-V3(喵喵维护版(使用 icqq))：[Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)
-* miao-plugin(喵喵插件): [Gitee](https://gitee.com/yoimiya-kokomi/miao-plugin) / [Github](https://github.com/yoimiya-kokomi/miao-plugin)
+* Miao-Yunzai（喵版Yunzai）:  [Gitee](https://gitee.com/yoimiya-kokomi/Miao-Yunzai) / [Github](https://github.com/yoimiya-kokomi/Miao-Yunzai)
+* Yunzai-V3（喵喵维护版(使用 icqq)）：[Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)
+* miao-plugin（喵喵插件）: [Gitee](https://gitee.com/yoimiya-kokomi/miao-plugin) / [Github](https://github.com/yoimiya-kokomi/miao-plugin)
 * 插件库：[Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index) / [GitHub](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)
 * unidbg-fetch-qsign：[GitHub](https://github.com/fuqiuluo/unidbg-fetch-qsign)
 
