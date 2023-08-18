@@ -1,10 +1,10 @@
 1.下载安装jdk并配置环境变量（教程：https://b23.tv/CDK1Y5F（来自B站up主木木伟的教程））
 2.将icqq升级到0.5.0（指令：pnpm install icqq@0.5.0 -w/pnpm add icqq@0.5.0 -w）
-3.打开文件unidbg-fetch-qsign\txlib\QQ版本（如:8.9.68）\config.json，修改key为任意数字（用默认的也可以，默认值为114514）
+3.打开文件unidbg-fetch-qsign/txlib/QQ版本（如:8.9.68）/config.json，修改key为任意数字（用默认的也可以，默认值为114514）
 4.双击启动一键startAPI.bat
-5.打开（Miao-Yunzai/Yunzai-Bot）\config\config\bot.yaml 在最底下添加 sign_api_addr: http://127.0.0.1:801/sign?key=第3步填写的key的值（如果为全新部署只要在sign_api_addr:后面加上http://127.0.0.1:801/sign?key=第3步填写的key的值即可）
-6.打开（Miao-Yunzai/Yunzai-Bot）\config\config\qq.yaml 更改为协议1或2（ 1:安卓手机、 2:aPad）
-7.打开（Miao-Yunzai/Yunzai-Bot）\config\config\bot.yaml 将日志等级改为debug
+5.打开（Miao-Yunzai/Yunzai-Bot）/config/config/bot.yaml 在最底下添加 sign_api_addr: http://127.0.0.1:801/sign?key=第3步填写的key的值（如果为全新部署只要在sign_api_addr:后面加上http://127.0.0.1:801/sign?key=第3步填写的key的值即可）
+6.打开（Miao-Yunzai/Yunzai-Bot）/config/config/qq.yaml 更改为协议1或2（ 1:安卓手机、 2:aPad）
+7.打开（Miao-Yunzai/Yunzai-Bot）/config/config/bot.yaml 将日志等级改为debug
 
 
 启动喵崽/云崽时看到  [qsign]getSign MessageSvc.PbSendMsg result: {"code":0,"msg":"success","data":{"token":"51317179432f5049344e5177","extra":"121b56315f414e445f53515f382e392e36385f343236345f5959425f44","sign":"0c0b88b1f13a1229a8edf6391d30e4061ee3565e9bc8340b0c3a910415276ce9840ec9fd3dc86e5b85a74715feb94fc8","o3did":"Q1qyC/PI4NQw","requestCallback":[]}} 像这样的日志输出说明调用成功
@@ -15,5 +15,5 @@
 
 注意：
 1.由于使用了axios请求，使用需要安装依赖axios（指令：pnpm install axios -w/pnpm add axios -w）
-2.如不想使用请自动注册实例功能将unidbg-fetch-qsign\txlib\QQ版本（如:8.9.68）文件夹下的config.json里的"auto_register": true,更改为"auto_register": false,
-3.api使用的QQ版本必须和Miao-Yunzai/Yunzai-Bot传人的版本一致（默认版本为8.9.70，可以在（Miao-Yunzai/Yunzai-Bot）\config\config\bot.yaml中添加ver: QQ版本(如:8.9.63、8.9.68)，如果为全新部署只要在ver:后面加上QQ版本即可）
+2.如不想使用请自动注册实例功能将unidbg-fetch-qsign/txlib/QQ版本（如:8.9.68）文件夹下的config.json里的"auto_register": true,更改为"auto_register": false,
+3.api使用的QQ版本必须和Miao-Yunzai/Yunzai-Bot传人的版本一致（默认版本为8.9.70，可以在（Miao-Yunzai/Yunzai-Bot）/config/config/bot.yaml中添加ver: QQ版本(如:8.9.63、8.9.68)，如果为全新部署只要在ver:后面加上QQ版本即可）
