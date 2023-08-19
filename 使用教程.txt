@@ -7,7 +7,7 @@
 7.打开（Miao-Yunzai/Yunzai-Bot）/config/config/bot.yaml 将日志等级改为debug
 
 
-启动喵崽/云崽时看到  [qsign]getSign MessageSvc.PbSendMsg result: {"code":0,"msg":"success","data":{"token":"51317179432f5049344e5177","extra":"121b56315f414e445f53515f382e392e36385f343236345f5959425f44","sign":"0c0b88b1f13a1229a8edf6391d30e4061ee3565e9bc8340b0c3a910415276ce9840ec9fd3dc86e5b85a74715feb94fc8","o3did":"Q1qyC/PI4NQw","requestCallback":[]}} 像这样的日志输出说明调用成功
+启动喵崽/云崽时看到  [qsign]getSign MessageSvc.PbSendMsg result(47ms): {"code":0,"msg":"success","data":{"token":"6f7947367a6576756f79706d","extra":"121b56315f414e445f53515f382e392e37305f343333305f5959425f441a62585f652f505471547841414c7366414b5879504a626a694532493945624336594e4871385a42502f4a56434d4d5a683350354a59394a41576b672f774346315a46796b3659425048554e4b74436a3649496a38452f584d7041706746386f6a534d3d","sign":"0c0b4942cb005cdbd03d2104962a4db35b2151f3fa1f7e3d064e05d80f49a7b92fd4c31a4d9c44e0f7cd13d2945327ea","o3did":"oyG6zevuoypm","requestCallback":[]}} 像这样的日志输出说明调用成功
 
 
 启动喵崽/云崽时未看到签名api注册异常的提醒或一键startAPI.bat窗口有[FEKit_]info: device_token.h:309 DeviceToken::saveToken ok! expireTime:1688699906像这样的日志说明注册成功
