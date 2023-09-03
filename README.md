@@ -37,6 +37,7 @@ git clone https://github.com/touchscale/Qsign
 * miao-plugin（喵喵插件）: [Gitee](https://gitee.com/yoimiya-kokomi/miao-plugin) / [Github](https://github.com/yoimiya-kokomi/miao-plugin)
 * Yunzai-Bot-plugins-index（插件库）：[Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index) / [GitHub](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)
 * unidbg-fetch-qsign（签名api项目地址）：[GitHub](https://github.com/fuqiuluo/unidbg-fetch-qsign)
+* icqq（icqq项目地址）：[GitHub](https://github.com/icqqjs/icqq)
 
 ## 免责声明
 
