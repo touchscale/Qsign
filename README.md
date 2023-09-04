@@ -39,6 +39,11 @@ git clone https://github.com/touchscale/Qsign
 * unidbg-fetch-qsign（签名api项目地址）：[GitHub](https://github.com/fuqiuluo/unidbg-fetch-qsign)
 * icqq（icqq项目地址）：[GitHub](https://github.com/icqqjs/icqq)
 
+## 疑难解答
+1.依赖安装或升级失败
+答：可以试试先pnpm i，再执行依赖安装指令
+
+
 ## 免责声明
 
 功能仅限内部交流与小范围使用，请勿用于以盈利为目的的场景
@@ -47,3 +52,5 @@ git clone https://github.com/touchscale/Qsign
 
 [![Wangsheng Funeral Parlor/签名api一键包（Windows）](https://gitee.com/touchscale/Qsign/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/touchscale/Qsign)
 </div>
+
+如果你喜欢这个项目，可以点点 Star，这是对开发者最大的动力
