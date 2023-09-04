@@ -41,7 +41,7 @@ git clone https://github.com/touchscale/Qsign
 
 ## 疑难解答
 > 1.依赖安装或升级失败
- 可以试试先pnpm i，再执行依赖安装指令
+> 可以试试先pnpm i，再执行依赖安装指令
 
 
 ## 免责声明
