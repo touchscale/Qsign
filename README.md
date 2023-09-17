@@ -40,6 +40,40 @@ git clone https://github.com/touchscale/Qsign
 1. 依赖安装或升级失败
 - 可以试试先执行pnpm i，再执行依赖安装指令
 
+## 配置文件说明
+
+
+```
+{ 
+   "server": { 
+     "host": "0.0.0.0", 
+     "port": 8080 
+   }, 
+   "share_token": true, 
+   // 共享token , 如果这个是false，且最大实例数量不是1，则一个号会拥有多个token 
+   // token不会导致封号！！！！ 
+   "count": 10, // 最大实例数量，如果没共享token，则为单个号最大实例数量 
+   "key": "114514", // 请求密钥 
+   "auto_register": true,  //自动注册实例
+   "protocol": { 
+     "package_name": "com.tencent.mobileqq", 
+     "qua": "V1_AND_SQ_8.9.71_4332_YYB_D", 
+     "version": "8.9.71", 
+     "code": "4332" 
+   }, 
+   "unidbg": { 
+     "dynarmic": false, // 高并发建议打开这个，但是实例数量不要太多，会爆炸, 10实例，内存会用掉5GB 
+     "unicorn": true, // 追求稳定打开这个，内存占用小 
+     "kvm": false, // 追求稳定打开这个，内存占用小 
+     "debug": false   //日志等级
+   }, 
+   "black_list": [ 
+     1008611 //  黑名单uin 
+   ] 
+ }
+```
+
+
 
 ## 免责声明
 
