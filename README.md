@@ -27,21 +27,12 @@ git clone https://github.com/touchscale/Qsign
 
 3. 按照 **使用教程.txt** 里的教程完成搭建
 
-## 资源
-
-* Miao-Yunzai（喵版Yunzai）:  [Gitee](https://gitee.com/yoimiya-kokomi/Miao-Yunzai) / [Github](https://github.com/yoimiya-kokomi/Miao-Yunzai)
-* Yunzai-V3（喵喵维护版(使用 icqq)）：[Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)
-* miao-plugin（喵喵插件）: [Gitee](https://gitee.com/yoimiya-kokomi/miao-plugin) / [Github](https://github.com/yoimiya-kokomi/miao-plugin)
-* Yunzai-Bot-plugins-index（插件库）：[Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index) / [GitHub](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)
-* unidbg-fetch-qsign（签名api项目地址）：[GitHub](https://github.com/fuqiuluo/unidbg-fetch-qsign)
-* icqq（icqq项目地址）：[GitHub](https://github.com/icqqjs/icqq)
 
 ## 疑难解答
 1. 依赖安装或升级失败
 - 可以试试先执行pnpm i，再执行依赖安装指令
 
 ## 配置文件说明
-
 
 ```
 { 
@@ -73,7 +64,14 @@ git clone https://github.com/touchscale/Qsign
  }
 ```
 
+## 资源
 
+* Miao-Yunzai（喵版Yunzai）:  [Gitee](https://gitee.com/yoimiya-kokomi/Miao-Yunzai) / [Github](https://github.com/yoimiya-kokomi/Miao-Yunzai)
+* Yunzai-V3（喵喵维护版(使用 icqq)）：[Gitee](https://gitee.com/yoimiya-kokomi/Yunzai-Bot)
+* miao-plugin（喵喵插件）: [Gitee](https://gitee.com/yoimiya-kokomi/miao-plugin) / [Github](https://github.com/yoimiya-kokomi/miao-plugin)
+* Yunzai-Bot-plugins-index（插件库）：[Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index) / [GitHub](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)
+* unidbg-fetch-qsign（签名api项目地址）：[GitHub](https://github.com/fuqiuluo/unidbg-fetch-qsign)
+* icqq（icqq项目地址）：[GitHub](https://github.com/icqqjs/icqq)
 
 ## 免责声明
 
