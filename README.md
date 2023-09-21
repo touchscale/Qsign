@@ -29,8 +29,30 @@ git clone https://github.com/touchscale/Qsign
 
 
 ## 疑难解答
+
 1. 依赖安装或升级失败
 - 可以试试先执行pnpm i，再执行依赖安装指令
+
+2. Api连接超时
+- 打开配置文件，将
+```
+"unidbg": {
+    "kvm": false,
+    "dynarmic": true,
+    "unicorn": false,
+    "debug": false
+  },
+```
+更改为
+```
+"unidbg": {
+    "kvm": true,
+    "dynarmic": true,
+    "unicorn": true,
+    "debug": false
+  },
+```
+后，重启api再试
 
 ## 配置文件说明
 
