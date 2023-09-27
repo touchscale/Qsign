@@ -34,6 +34,7 @@ git clone https://github.com/touchscale/Qsign
 - 可以试试先执行pnpm i，再执行依赖安装指令
 
 2. Api连接超时
+解决方法一：
 - 打开配置文件，将
 ```
 "unidbg": {
@@ -54,13 +55,16 @@ git clone https://github.com/touchscale/Qsign
 ```
 后，重启api再试
 
+解决方法二：
+- 打开配置文件，将端口号更改一下(就是port: 801，801改为任意数字)，再试
+
 ## 配置文件说明
 
 ```
 { 
    "server": { 
      "host": "0.0.0.0", 
-     "port": 8080 
+     "port": 8080 //端口号
    }, 
    "share_token": true, 
    // 共享token , 如果这个是false，且最大实例数量不是1，则一个号会拥有多个token 
@@ -73,7 +77,7 @@ git clone https://github.com/touchscale/Qsign
      "qua": "V1_AND_SQ_8.9.71_4332_YYB_D", 
      "version": "8.9.71", 
      "code": "4332" 
-   }, 
+   }, // QQ版本信息
    "unidbg": { 
      "dynarmic": false, // 高并发建议打开这个，但是实例数量不要太多，会爆炸, 10实例，内存会用掉5GB 
      "unicorn": true, // 追求稳定打开这个，内存占用小 
