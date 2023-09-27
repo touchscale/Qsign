@@ -63,8 +63,8 @@ git clone https://github.com/touchscale/Qsign
 ```
 { 
    "server": { 
-     "host": "0.0.0.0", 
-     "port": 8080 //端口号
+     "host": "0.0.0.0", // 监听地址
+     "port": 8080 // 端口号
    }, 
    "share_token": true, 
    // 共享token , 如果这个是false，且最大实例数量不是1，则一个号会拥有多个token 
@@ -82,7 +82,7 @@ git clone https://github.com/touchscale/Qsign
      "dynarmic": false, // 高并发建议打开这个，但是实例数量不要太多，会爆炸, 10实例，内存会用掉5GB 
      "unicorn": true, // 追求稳定打开这个，内存占用小 
      "kvm": false, // 追求稳定打开这个，内存占用小 
-     "debug": false   //日志等级
+     "debug": false   // 以日志等级debug显示日志
    }, 
    "black_list": [ 
      1008611 //  黑名单uin 
