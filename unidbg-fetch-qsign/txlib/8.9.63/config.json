@@ -1,22 +1,19 @@
-{ 
-   "server": { 
-     "host": "0.0.0.0", 
-     "port": 801
-   }, 
-   "share_token": true, 
-   "count": 10, 
-   "key": "114514", 
-   "auto_register": true, 
-   "protocol": { 
-     "package_name": "com.tencent.mobileqq", 
-     "qua": "V1_AND_SQ_8.9.63_4194_YYB_D", 
-     "version": "8.9.63", 
-     "code": "4194" 
-   }, 
-   "unidbg": { 
-     "dynarmic": true, 
-     "unicorn": false, 
-     "kvm": false, 
-     "debug": false 
-   } 
- }
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 801
+  },
+  "key": "114514",
+  "auto_register": true,
+  "protocol": {
+    "package_name": "com.tencent.mobileqq",
+    "qua": "V1_AND_SQ_8.9.63_4194_YYB_D",
+    "version": "8.9.63",
+    "code": "4194"
+  },
+  "unidbg": {
+    "dynarmic": true,
+    "unicorn": false,
+    "debug": false
+  }
+}
