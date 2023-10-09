@@ -38,7 +38,6 @@ git clone https://github.com/touchscale/Qsign
 - 打开配置文件，将
 ```
 "unidbg": {
-    "kvm": false,
     "dynarmic": true,
     "unicorn": false,
     "debug": false
@@ -47,7 +46,6 @@ git clone https://github.com/touchscale/Qsign
 更改为
 ```
 "unidbg": {
-    "kvm": true,
     "dynarmic": true,
     "unicorn": true,
     "debug": false
@@ -66,10 +64,6 @@ git clone https://github.com/touchscale/Qsign
      "host": "0.0.0.0", // 监听地址
      "port": 8080 // 端口号
    }, 
-   "share_token": true, 
-   // 共享token , 如果这个是false，且最大实例数量不是1，则一个号会拥有多个token 
-   // token不会导致封号！！！！ 
-   "count": 10, // 最大实例数量，如果没共享token，则为单个号最大实例数量 
    "key": "114514", // 请求密钥 
    "auto_register": true,  //自动注册实例
    "protocol": { 
@@ -81,7 +75,6 @@ git clone https://github.com/touchscale/Qsign
    "unidbg": { 
      "dynarmic": false, // 高并发建议打开这个，但是实例数量不要太多，会爆炸, 10实例，内存会用掉5GB 
      "unicorn": true, // 追求稳定打开这个，内存占用小 
-     "kvm": false, // 追求稳定打开这个，内存占用小 
      "debug": false   // 以日志等级debug显示日志
    }, 
    "black_list": [ 
