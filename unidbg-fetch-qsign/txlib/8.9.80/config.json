@@ -15,5 +15,5 @@
      "dynarmic": true, 
      "unicorn": false, 
      "debug": false 
-   },
+   }
  }
