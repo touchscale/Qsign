@@ -1,0 +1,32 @@
+version: '1.0'
+name: pipeline-20231016
+displayName: pipeline-20231016
+triggers:
+  trigger: auto
+  push:
+    branches:
+      precise:
+        - master
+  pr:
+    branches:
+      precise:
+        - master
+stages:
+  - name: stage-9b0509a9
+    displayName: 未命名
+    strategy: naturally
+    trigger: auto
+    executor: []
+    steps:
+      - step: publish@release_artifacts
+        name: publish_release_artifacts
+        displayName: 发布
+        dependArtifact: output
+        version: 1.1.9.0
+        autoIncrement: true
+        notify: []
+        strategy:
+          retry: '0'
+strategy:
+  cloneDepth: 1
+  blocking: false
