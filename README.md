@@ -45,7 +45,7 @@ sudo apt update&&sudo apt install openjdk-8-jdk
 
 
 ```
-unzip unidbg-fetch-qsign-1.1.9.zip
+unzip Qsign-1.1.9.zip
 ```
 
 5.检查端口占用
