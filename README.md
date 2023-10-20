@@ -93,6 +93,7 @@ bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 
 ④.Ctrl+a+d退出
 
+8.剩余步骤和**使用教程.txt**中的第2.3.5.6.7步一致
 
 ## 疑难解答
 
