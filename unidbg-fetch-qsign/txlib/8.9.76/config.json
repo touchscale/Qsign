@@ -11,11 +11,11 @@
      "version": "8.9.76", 
      "code": "4484" 
    }, 
-   "unidbg": { 
-     "dynarmic": true, 
-     "unicorn": false, 
-     "debug": false 
-   },
+   "unidbg": {
+    "dynarmic": false,
+    "unicorn": true,
+    "debug": false
+  },
    "black_list": [
      1008611
    ]

@@ -12,8 +12,8 @@
     "code": "4194"
   },
   "unidbg": {
-    "dynarmic": true,
-    "unicorn": false,
+    "dynarmic": false,
+    "unicorn": true,
     "debug": false
   }
 }
