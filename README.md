@@ -101,26 +101,6 @@ bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 - 可以试试先执行pnpm i，再执行依赖安装指令
 
 2. Api连接超时
-解决方法一：
-- 打开配置文件，将
-```
-"unidbg": {
-    "dynarmic": true,
-    "unicorn": false,
-    "debug": false
-  },
-```
-更改为
-```
-"unidbg": {
-    "dynarmic": true,
-    "unicorn": true,
-    "debug": false
-  },
-```
-后，重启api再试
-
-解决方法二：
 - 打开配置文件，将端口号更改一下(就是port: 801，801改为任意数字)，重启api再试
 
 ## 配置文件说明
