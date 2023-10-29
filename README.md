@@ -13,6 +13,7 @@ Windows的签名api一键搭建包
 
 ## 使用教程
 
+**Windows** 
 1. [点击这里](https://share.weiyun.com/4nG2DbIn)或者[这里](https://cowtransfer.com/s/3c4534a336c04b)下载jdk软件（想使用其他版本可以打开 **jdk下载地址（32位系统或想用其他版本的可查看）.txt** 里的地址选择版本进行下载）
 2. 克隆本仓库（不推荐，有时候最新的更新可能会有些问题，建议从发行版中下载）或在发行版中下载对应版本（推荐）
 
@@ -27,6 +28,72 @@ git clone https://github.com/touchscale/Qsign
 
 3. 按照 **使用教程.txt** 里的教程完成搭建
 
+**Linux** 
+
+1.使用ssh工具连接服务器，如果是手机打开Termux即可
+
+2.安装jdk8
+
+
+```
+sudo apt update&&sudo apt install openjdk-8-jdk
+```
+
+3.服务器使用ftp上传文件或者克隆项目，Termux直接克隆项目
+
+4.解压压缩包（克隆项目无需解压）
+
+
+```
+unzip Qsign-1.1.9.zip
+```
+
+5.检查端口占用
+
+
+```
+netstat -lntp
+```
+
+注意：如有占用请编辑config.json，更改端口
+
+6.启动！
+
+
+```
+bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
+```
+
+注意：版本号可更改
+
+7.screen挂后台
+
+①.安装screen
+
+
+```
+sudo apt install screen
+```
+
+②.创建窗口
+
+
+```
+screen -S qsign
+```
+
+③.运行
+
+
+```
+bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
+```
+
+注意：版本号可更改
+
+④.Ctrl+a+d退出
+
+8.剩余步骤和**使用教程.txt**中的第2.3.5.6.7步一致
 
 ## 疑难解答
 
@@ -34,26 +101,6 @@ git clone https://github.com/touchscale/Qsign
 - 可以试试先执行pnpm i，再执行依赖安装指令
 
 2. Api连接超时
-解决方法一：
-- 打开配置文件，将
-```
-"unidbg": {
-    "dynarmic": true,
-    "unicorn": false,
-    "debug": false
-  },
-```
-更改为
-```
-"unidbg": {
-    "dynarmic": true,
-    "unicorn": true,
-    "debug": false
-  },
-```
-后，重启api再试
-
-解决方法二：
 - 打开配置文件，将端口号更改一下(就是port: 801，801改为任意数字)，重启api再试
 
 ## 配置文件说明

@@ -23,3 +23,4 @@
 7.sign_api_addr:或ver:的冒号后面一定要加上空格，不然会报错
 8.如果要更改使用的版本，请打开一键StartAPI.bat，将bin/unidbg-fetch-qsign --basePath=txlib/后面的版本更改为你要使用的(默认为8.9.80)
 9.如果更改了登录使用协议或使用的版本，请删除虚拟设备文件，再登录。(文件位置：Miao-Yunzai/data/icqq/QQ号，将QQ号命名的这个文件夹删除即可)
+10.如果要使用8.9.85版本，请将device.js替换（Miao-Yunzai/Yunzai-Bot）\node_modules\icqq\lib\core\device.js，然后打开一键StartAPI.bat，将--basePath=txlib/后面的版本更改为8.9.85
