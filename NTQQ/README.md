@@ -28,7 +28,7 @@ git clone -b red --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins
 ```
 11. 在Miao-Yunzai根目录使用node apps启动即可
 
-# 注意：NTQQ不能关闭，否则使用不了
+# 注意：NTQQ不能关闭，否则使用不了！！！
 
 
 
