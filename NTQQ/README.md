@@ -1,3 +1,7 @@
+<div align="center">
+使用教程
+</div> 
+
 1. 下载并安装[QQNT9.9.2.16183](https://cowtransfer.com/s/4f441b98c0be43)
 2. 安装VC库（双击VC_redist.x64.exe安装并重启电脑）
 3. 解压LiteLoaderQQNT.zip
