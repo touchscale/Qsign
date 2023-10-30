@@ -7,7 +7,7 @@
 3. 解压LiteLoaderQQNT.zip
 4. 将压缩包内的LiteLoader文件夹放到QQNT安装目录下的resources/app文件夹内
 5. 将LiteLoaderQQNT-Launcher_x64.exe放到QQNT安装目录下（记得右键发送到桌面快捷方式）
-6. 双击打开LiteLoaderQQNT-Launcher_x64.exe并登录机器人QQ，点击设置，在LiteLoader插件市场下载Chronocat并重启QQ
+6. 解压LiteLoaderQQNT-Plugin-Chronocat-master.zip并将压缩包内的LiteLoaderQQNT-Plugin-Chronocat-master文件夹放到LiteLoader数据目录下（LiteLoader配置界面可以看到，打开即可）
 7. 将apps.js放到Miao-Yunzai根目录下
 8. 克隆[ws-plugin](https://gitee.com/xiaoye12123/ws-plugin)插件的red分支
 ```
