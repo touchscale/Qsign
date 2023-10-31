@@ -8,13 +8,14 @@
 4. 将压缩包内的LiteLoader文件夹放到QQNT安装目录下的resources/app文件夹内
 5. 将LiteLoaderQQNT-Launcher_x64.exe放到QQNT安装目录下（记得右键发送到桌面快捷方式）
 6. 解压LiteLoaderQQNT-Plugin-Chronocat-master.zip并将压缩包内的LiteLoaderQQNT-Plugin-Chronocat-master文件夹放到LiteLoader数据目录下（LiteLoader配置界面可以看到，打开即可）
-7. 将apps.js放到Miao-Yunzai根目录下
-8. 克隆[ws-plugin](https://gitee.com/xiaoye12123/ws-plugin)插件的red分支
+7. 右键以管理员运行LiteLoaderQQNT-Launcher_x64.exe（启动失败的直接双击启动），登录机器人QQ
+8. 将apps.js放到Miao-Yunzai根目录下
+9. 克隆[ws-plugin](https://gitee.com/xiaoye12123/ws-plugin)插件的red分支
 ```
 git clone -b red --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
 ```
-9. node apps启动一次或者复制一份Miao-Yunzai\plugins\ws-plugin\config\default_config文件夹并重命名为config
-10. 打开Miao-Yunzai\plugins\ws-plugin\config\config\ws-config.yaml，在servers:后面添加如下配置
+10. node apps启动一次或者复制一份Miao-Yunzai\plugins\ws-plugin\config\default_config文件夹并重命名为config
+11. 打开Miao-Yunzai\plugins\ws-plugin\config\config\ws-config.yaml，在servers:后面添加如下配置
 
 ```
   - name:  // 连接名字
@@ -26,7 +27,7 @@ git clone -b red --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins
     uin: // 机器人QQ
     closed: false
 ```
-11. 在Miao-Yunzai根目录使用node apps启动即可
+12. 在Miao-Yunzai根目录使用node apps启动即可
 
 # 注意：NTQQ不能关闭，否则使用不了！！！
 
