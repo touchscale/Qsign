@@ -16,7 +16,7 @@
 注意：
 1.由于使用了axios请求，使用需要安装依赖axios（指令：pnpm install axios -w或pnpm add axios -w）
 2.如不想使用请自动注册实例功能将unidbg-fetch-qsign/txlib/QQ版本（如:8.9.68）文件夹下的config.json里的"auto_register": true,更改为"auto_register": false,
-3.api使用的QQ版本必须和Miao-Yunzai传入的版本一致（默认版本为8.9.70，可以在Miao-Yunzai/config/config/bot.yaml中添加ver: QQ版本(如:8.9.63、8.9.68)，如果为全新部署只要在ver:后面加上QQ版本即可，icqq版本0.5.1及以上时无需填写，可以获取api使用的QQ版本）
+3.api使用的QQ版本必须和Miao-Yunzai传入的版本一致（默认版本为8.9.80，可以在Miao-Yunzai/config/config/bot.yaml中添加ver: QQ版本(如:8.9.63、8.9.68)，如果为全新部署只要在ver:后面加上QQ版本即可，icqq版本0.5.1及以上时无需填写，可以获取api使用的QQ版本）
 4.只有1.1.9版本的签名api才支持Tim协议
 5.签名api的窗口必须保持开启状态，不能关闭，否则无法调用成功！
 6.请尽量不要使用高版本的so文件，目前最新版签名api只是浅浅的过了一下8.9.78的检测(目前仓库已更新8.9.80文件，如果其他版本能登上，请勿使用，此版本只用于应急)
