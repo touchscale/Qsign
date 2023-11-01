@@ -26,7 +26,7 @@ git clone -b red --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins
   uin: 
   closed: false
 ```
-记得填入uin！！！
+记得填入uin！！！复制过去第一行有空格，记得删除-前面的两个空格
 
 12. 在Miao-Yunzai根目录使用node apps启动即可
 
