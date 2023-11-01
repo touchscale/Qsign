@@ -27,6 +27,20 @@ git clone -b red --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins
     uin: // 机器人QQ
     closed: false
 ```
+复制这个，上面的是告诉你这些配置项是什么意思
+
+```
+- name: QQNT
+    address: 127.0.0.1:16530
+    type: 4
+    accessToken: 
+    reconnectInterval: 10
+    maxReconnectAttempts: 0
+    uin: 
+    closed: false
+```
+
+
 12. 在Miao-Yunzai根目录使用node apps启动即可
 
 # 注意：NTQQ不能关闭，否则使用不了！！！
