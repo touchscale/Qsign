@@ -17,14 +17,14 @@ git clone -b red --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins
 10. node apps启动一次或者复制一份Miao-Yunzai\plugins\ws-plugin\config\default_config文件夹并重命名为config
 11. 打开Miao-Yunzai\plugins\ws-plugin\config\config\ws-config.yaml，在servers:后面添加如下配置
 ```
-  - name: QQNT
-    address: 127.0.0.1:16530
-    type: 4
-    accessToken: 
-    reconnectInterval: 10
-    maxReconnectAttempts: 0
-    uin: 
-    closed: false
+- name: QQNT
+  address: 127.0.0.1:16530
+  type: 4
+  accessToken: 
+  reconnectInterval: 10
+  maxReconnectAttempts: 0
+  uin: 
+  closed: false
 ```
 记得填入uin！！！
 
