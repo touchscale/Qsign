@@ -25,7 +25,22 @@ git clone -b red --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins
   uin: 
   closed: false
 ```
-记得填入uin！！！复制过去第一行有空格，记得删除-前面的两个空格
+
+填好后的样子：
+
+```
+servers:
+  - name: QQNT
+    address: 127.0.0.1:16530
+    type: 4
+    accessToken: 
+    reconnectInterval: 10
+    maxReconnectAttempts: 0
+    uin: 
+    closed: false
+```
+
+记得填入uin！！！复制过去第一行有空格，记得删除-前面的两个空格，格式一定不能错，不然会报错！！！
 
 11. 在Miao-Yunzai根目录使用node apps启动即可
 
