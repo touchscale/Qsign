@@ -4,6 +4,10 @@
 <h1>签名api一键包（Windows）
 <img src='https://gitee.com/touchscale/Qsign/badge/star.svg?theme=dark'  alt='star'></img>
 <img src='https://gitee.com/touchscale/Qsign/badge/fork.svg?theme=dark'  alt='fork'></img>
+
+[![GitHub stars](https://img.shields.io/github/stars/touchscale/Qsign)](https://github.com/touchscale/Qsign/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/touchscale/Qsign)](https://github.com/touchscale/Qsign/network)
+[![GitHub issues](https://img.shields.io/github/issues/touchscale/Qsign)](https://github.com/touchscale/Qsign/issues)
 </h1>
 </br>
 </div> 
