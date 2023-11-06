@@ -2,7 +2,7 @@
 <h1>使用教程</h1>
 </div> 
 
-1. 下载并安装[QQNT9.9.2.16183](https://cowtransfer.com/s/cf45f925cd1346)（最高支持到这个版本，高版本使用不了！！！）
+1. 下载并安装[QQNT9.9.2.16183](https://cowtransfer.com/s/cf45f925cd1346)（**最高支持到这个版本，高版本使用不了！！！**）
 2. 安装VC库（双击VC_redist.x64.exe安装并重启电脑）
 3. 解压LiteLoaderQQNT.zip并将压缩包内的LiteLoader文件夹放到QQNT安装目录下的resources/app文件夹内
 4. 将LiteLoaderQQNT-Launcher_x64.exe放到QQNT安装目录下（记得右键发送到桌面快捷方式）
