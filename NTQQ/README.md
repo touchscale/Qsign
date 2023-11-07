@@ -45,6 +45,8 @@ servers:
 
 11. 在Miao-Yunzai根目录使用node apps启动即可
 
+Linux端可以看官方文档的教程：https://llqn.srap.link/guide/install.html
+
 # 配置文件说明
 ```
   - name:  // 连接名字
