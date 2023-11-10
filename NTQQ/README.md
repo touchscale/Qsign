@@ -14,7 +14,7 @@
 ```
 git clone -b red --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
 ```
-9. node apps启动一次或者复制一份Miao-Yunzai\plugins\ws-plugin\config\default_config文件夹并重命名为config
+9.  **node apps** 启动一次或者复制一份Miao-Yunzai\plugins\ws-plugin\config\default_config文件夹并重命名为config
 10. 打开Miao-Yunzai\plugins\ws-plugin\config\config\ws-config.yaml，在servers:后面添加如下配置
 ```
 - name: QQNT
@@ -43,7 +43,9 @@ servers:
 
  # 记得填入uin！！！ 不会加的直接复制并替换"填好后的样子"，将uin填入即可。格式一定不能错，不然会报错！！！
 
-11. 在Miao-Yunzai根目录使用node apps启动即可
+11. 在Miao-Yunzai根目录使用 **node apps** 启动即可
+
+# 注意：启动指令是node apps，不是node app！！！
 
 Linux端可以看官方文档的教程：https://llqn.srap.link/guide/install.html
 
