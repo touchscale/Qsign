@@ -81,7 +81,7 @@ if "%ERRORLEVEL%"=="0" goto mainEnd
 rem Set variable UNIDBG_FETCH_QSIGN_EXIT_CONSOLE if you need the _script_ return code instead of
 rem the _cmd.exe /c_ return code!
 if  not "" == "%UNIDBG_FETCH_QSIGN_EXIT_CONSOLE%" exit 1
-exit /b 1
+exit 1
 
 :mainEnd
 if "%OS%"=="Windows_NT" endlocal
