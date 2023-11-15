@@ -1,2 +1,6 @@
 cd unidbg-fetch-qsign
-bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
+:auto
+start /w  start.bat
+timeout /t 3
+echo %time%-%date%  >>logs.txt
+goto :auto
