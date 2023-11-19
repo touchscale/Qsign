@@ -12,6 +12,8 @@
 </br>
 </div> 
 
+# [签名api原项目](https://github.com/fuqiuluo/unidbg-fetch-qsign)已经停止维护并删库，本项目仅更新QQ版本文件及教程！！！
+
 # 介绍
 Windows的签名api一键搭建包
 
