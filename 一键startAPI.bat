@@ -1,4 +1,5 @@
 @ echo off
+cd unidbg-fetch-qsign
 set te=8640000
 set yunzaipath="..\Yunzai-Bot"
 set yunzai=node app
@@ -34,16 +35,16 @@ set time1=%time%
 echo %time%-%date%
 >>logs.txt echo %time%-%date%
 
-start /w start2.bat
+start /w start.bat
 set time2=%time%
 exit /b
 
 
 
-rem 延迟5秒启动云崽
+rem 延迟3秒启动云崽
 :miao
     PUSHD %yunzaipath%
-    start cmd /c "timeout /t 5 & %yunzai%"
+    start cmd /c "timeout /t 3 & %yunzai%"
     POPD
 exit /b
 
