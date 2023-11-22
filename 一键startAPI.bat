@@ -3,52 +3,74 @@ cd unidbg-fetch-qsign
 set te=8640000
 set yunzaipath="..\Yunzai-Bot"
 set yunzai=node app
+set yunzainame=Miao-Yunzai
+rem 请设置云崽的安装路径、启动方式、窗口标题前缀
+
+rem 如果运行后乱码，请右键编辑脚本 另存为 编码选ANSI 保存
 
 :auto
 call :api
-rem 启动 签名API并等待结束
+timeout /t 3 >nul
+rem 启动 签名API 并记录日志
 
-rem 判断运行时间是否大于600秒
-call :time %time1% %time2%
-if %te% GTR 60000 (
-    rem 满足，输出文本
-    echo API异常，已重启
-    timeout /t 3
-
-) else (
-    rem 不满足，则延迟60秒，然后重启云崽
-    echo API频繁异常，暂停60秒，重启云崽
-    taskkill /f /im node.exe
-    timeout /t 60
-
-    call :miao
+:log
+rem 间隔30秒小循环一次
+timeout /t 30 >nul
+:api_st
+rem 检测API是否还在运行
+for /f "tokens=2 delims=," %%a in ('tasklist /v /fo csv^|find "API请勿关闭"') do (
+  goto api_log_st
 )
+goto bug
+:api_log_st
+rem 检测日志是否有报错
+for /f "delims=" %%a in ('findstr "警告: Fetch memory failed" log.txt') do (
+  goto bug
+)
+goto log
 
-rem 跳转到auto标签（实现循环）
+:bug
+rem 判断运行时间是否大于600秒
+call :time %time1% %time%
+if %te% GTR 60000 (
+  echo API异常，已重启
+  call :off API请勿关闭
+  timeout /t 3 >nul
+) else (
+  echo API频繁异常，暂停60秒，重启云崽
+  call :off %yunzainame%
+  call :off API请勿关闭
+  taskkill /f /im node.exe
+  timeout /t 60
+  call :miao
+)
+del /f /q api.txt >nul 2>nul
+del /f /q hs_err_pid* >nul 2>nul
+rem 删除日志，跳转到auto 大循环重启api
 goto :auto
-
 
 
 rem 启动 签名API，记录并展示启动时间
 :api
 set time1=%time%
-echo %time%-%date%
->>logs.txt echo %time%-%date%
-
-start /w start.bat
-set time2=%time%
+echo %date%-%time%
+>>logs.txt echo %date%-%time%
+start start2.bat
 exit /b
 
-
+rem 结束 指定程序
+:off
+for /f "tokens=2 delims=," %%a in ('tasklist /v /fo csv^|find "%1"') do (
+  taskkill /F /pid %%~a
+)
+exit /b
 
 rem 延迟3秒启动云崽
 :miao
-    PUSHD %yunzaipath%
-    start cmd /c "timeout /t 3 & %yunzai%"
-    POPD
+PUSHD %yunzaipath%
+start cmd /c "timeout /t 3 & %yunzai%"
+POPD
 exit /b
-
-
 
 rem 计算时间差，单位为毫秒
 rem 输入 call :time 时间1 时间2
