@@ -24,7 +24,7 @@ for /f "tokens=2 delims=," %%a in ('tasklist /v /fo csv^|find "API请勿关闭"'
 goto bug
 :api_log_st
 rem 检测日志是否有报错
-for /f "delims=" %%a in ('findstr "警告: Fetch memory failed" log.txt') do (
+for /f "delims=" %%a in ('findstr "警告: emulate RX@" log.txt') do (
   goto bug
 )
 goto log
