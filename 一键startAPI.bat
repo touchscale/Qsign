@@ -14,7 +14,7 @@ rem 请设置api安装路径。本脚本可放在任何位置，以适配任何第三方启动器
 rem （一闪启动器删掉这四行，改名start.bat，和api.bat均放在API目录即可）
 
 
-set yunzaipath="..\Yunzai-Bot"
+set yunzaipath="..\Miao-Yunzai"
 set yunzai=node app
 set yunzainame=Miao-Yunzai
 rem 请设置云崽的安装路径、启动方式、窗口标题前缀
