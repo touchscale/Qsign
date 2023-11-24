@@ -111,7 +111,7 @@ bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 - 打开配置文件，将端口号更改一下(就是port: 801，801改为任意数字)，重启api再试
 
 3.APi频繁崩溃
-- 目前测试API使用83及以上QQ版本会出现这种情况，可以参考issues[#I8GLZN](https://gitee.com/touchscale/Qsign/issues/I8GLZN)进行解决，或者使用NTQQ
+- 目前测试API使用83及以上QQ版本会出现这种情况，可以参考issues[#I8GLZN](https://gitee.com/touchscale/Qsign/issues/I8GLZN)进行解决（感谢[batvbs](https://gitee.com/batvbs)提供的解决方法），或者使用NTQQ
 
 ## 配置文件说明
 
