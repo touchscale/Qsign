@@ -58,8 +58,8 @@ if %te% GTR 60000 (
     rem API异常，已重启
     call :off API请勿关闭
 ) else (
-    rem API频繁异常，重启云崽
-    set err=%err%重启云崽。
+    rem API频繁异常，重启喵崽
+    set err=%err%重启喵崽。
     call :off API请勿关闭
     call :off %yunzainame%
     taskkill /f /t /im node.exe
@@ -99,7 +99,7 @@ exit /b
 
 
 
-rem 延迟6秒启动云崽
+rem 延迟6秒启动喵崽
 :miao
     PUSHD %yunzaipath%
     start cmd /c "timeout /t 6 & %yunzai%"
