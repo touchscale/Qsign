@@ -1,4 +1,4 @@
-@echo 如果运行后乱码，请右键编辑脚本 另存为 编码选ANSI 保存
+@rem 如果运行后乱码，请右键编辑脚本 另存为 编码选ANSI 保存
 @echo off
 title API请勿关闭
 echo API已启动，日志输出log.txt
@@ -10,5 +10,3 @@ bin\unidbg-fetch-qsign --basePath=txlib\8.9.85|findstr "警告:"
 rem 可自行修改需要登录的QQ版本
 
 exit
-
-
