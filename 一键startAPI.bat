@@ -1,5 +1,5 @@
 @rem 如果运行后乱码，请右键编辑脚本 另存为 编码选ANSI 保存
-@ echo off
+@echo off
 @fsutil dirty query "%systemdrive%" 1>nul 2>nul || (mshta vbscript:CreateObject^("Shell.Application"^).ShellExecute^("""cmd.exe""","/c %~s0",,"runas",1^)^(window.close^)&&exit)
 @fsutil dirty query "%systemdrive%" 1>nul 2>nul || (echo 请右键“以管理员身份运行”&timeout /t 7&exit)
 set r=0
@@ -8,7 +8,7 @@ set err=正常启动
 cd /d %~dp0
 
 
-set apipath=.\unidbg-fetch-qsign
+set apipath=".\unidbg-fetch-qsign"
 cd /d %apipath%
 rem 请设置api安装路径。本脚本可放在任何位置，以适配任何第三方启动器
 rem （一闪启动器删掉这四行，改名start.bat，和api.bat均放在API目录即可）
@@ -18,6 +18,7 @@ set yunzaipath="..\Miao-Yunzai"
 set yunzai=node app
 set yunzainame=Miao-Yunzai
 rem 请设置喵崽的安装路径、启动方式、窗口标题前缀
+if not exist %yunzaipath% echo 警告：找不到喵崽安装路径，右键编辑脚本即可配置
 
 
 
@@ -101,9 +102,9 @@ exit /b
 
 rem 延迟6秒启动喵崽
 :miao
-    PUSHD %yunzaipath%
-    start cmd /c "timeout /t 6 & %yunzai%"
-    POPD
+PUSHD %yunzaipath%
+start cmd /c "timeout /t 6 & %yunzai%"
+POPD
 exit /b
 
 
