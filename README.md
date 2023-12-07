@@ -37,25 +37,25 @@ git clone https://github.com/touchscale/Qsign
 
 #### Linux 
 
-1.使用ssh工具连接服务器，如果是手机打开Termux即可
+1. 使用ssh工具连接服务器，如果是手机打开Termux即可
 
-2.安装jdk8
+2. 安装jdk8
 
 
 ```
 sudo apt update&&sudo apt install openjdk-8-jdk
 ```
 
-3.服务器使用ftp上传文件或者克隆项目，Termux直接克隆项目
+3. 服务器使用ftp上传文件或者克隆项目，Termux直接克隆项目
 
-4.解压压缩包（克隆项目无需解压）
+4. 解压压缩包（克隆项目无需解压）
 
 
 ```
 unzip Qsign-1.1.9.zip
 ```
 
-5.检查端口占用
+5. 检查端口占用
 
 
 ```
@@ -64,7 +64,7 @@ netstat -lntp
 
 注意：如有占用请编辑config.json，更改端口
 
-6.启动！
+6. 启动！
 
 
 ```
@@ -73,23 +73,23 @@ bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 
 注意：版本号可更改
 
-7.screen挂后台
+7. screen挂后台
 
-①.安装screen
+①. 安装screen
 
 
 ```
 sudo apt install screen
 ```
 
-②.创建窗口
+②. 创建窗口
 
 
 ```
 screen -S qsign
 ```
 
-③.运行
+③. 运行
 
 
 ```
@@ -98,9 +98,9 @@ bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 
 注意：版本号可更改
 
-④.Ctrl+a+d退出
+④. Ctrl+a+d退出
 
-8.剩余步骤和**使用教程.txt**中的第2.3.5.6.7步一致
+8. 剩余步骤和**使用教程.txt**中的第2.3.5.6.7步一致
 
 ### 疑难解答
 
