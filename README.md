@@ -68,7 +68,7 @@ netstat -lntp
 
 
 ```
-bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
+cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 ```
 
 注意：版本号可更改
@@ -93,7 +93,7 @@ screen -S qsign
 
 
 ```
-bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
+cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 ```
 
 注意：版本号可更改
