@@ -260,6 +260,17 @@ var Platform;
 const mobile = [
     // 每个版本不同的信息
     {
+        name: "A9.0.8.10368491",
+        version: "9.0.8.14755",
+        ver: "9.0.8",
+        buildtime: 1702888273,
+        subid: 537200218,
+        bitmap: 150470524,
+        sdkver: "6.0.0.2558",
+        qua: 'V1_AND_SQ_9.0.8_5540_YYB_D',
+        ssover: 21,
+    },
+    {
         name: "A9.0.0.0ebb1ecb",
         version: "9.0.0.14110",
         ver: "9.0.0",
@@ -439,6 +450,10 @@ const mobile = [
     };
 });
 const aPadSubids = [
+    {
+        ver: '9.0.8',
+        subid: 537200257,
+    },
     {
         ver: '9.0.0',
         subid: 537194390,
