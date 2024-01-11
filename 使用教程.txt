@@ -1,5 +1,5 @@
 1.下载安装jdk并配置环境变量（教程：https://b23.tv/CDK1Y5F（来自B站up主木木伟的教程））
-2.将icqq升级到0.6.7（指令：pnpm install icqq@0.6.7 -w或pnpm add icqq@0.6.7 -w）
+2.将icqq升级到0.6.8（指令：pnpm install icqq@0.6.8 -w或pnpm add icqq@0.6.8 -w）
 3.打开unidbg-fetch-qsign/txlib/QQ版本（如:8.9.68）/config.json，修改key为任意数字（用默认的也可以，默认值为114514）
 4.双击启动一键startAPI.bat
 5.打开Miao-Yunzai/config/config/bot.yaml 在最底下添加 sign_api_addr: http://127.0.0.1:801/sign?key=第3步填写的key的值（如果为全新部署只要在sign_api_addr: 后面加上http://127.0.0.1:801/sign?key=第3步填写的key的值即可）
@@ -22,4 +22,3 @@
 6.sign_api_addr:或ver:的冒号后面一定要加上空格，不然会报错
 7.如果要更改使用的版本，请打开unidbg-fetch-qsign\api.bat，将bin/unidbg-fetch-qsign --basePath=txlib/后面的版本更改为你要使用的(默认为8.9.80)
 8.如果更改了登录使用协议或使用的版本，请删除虚拟设备文件，再登录。(文件位置：Miao-Yunzai/data/icqq/QQ号，将QQ号命名的这个文件夹删除即可)
-9.如果要使用9.0.8版本，请替换文件Miao-Yunzai\node_modules\icqq\lib\core\device.js，然后打开unidbg-fetch-qsign\api.bat，将bin/unidbg-fetch-qsign --basePath=txlib/后面的版本更改为9.0.8
