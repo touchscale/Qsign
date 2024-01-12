@@ -102,6 +102,10 @@ cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 
 8. 剩余步骤和**使用教程.txt**中的第2.3.5.6.7步一致
 
+#### Docker
+
+具体请看[教程](https://gitee.com/kissnavel/qsign#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F)，感谢作者[kissnavel](https://gitee.com/kissnavels)
+
 ### 疑难解答
 
 1. 依赖安装或升级失败
