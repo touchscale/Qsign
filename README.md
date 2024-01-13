@@ -104,7 +104,7 @@ cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 
 #### Docker
 
-具体请看[教程](https://gitee.com/kissnavel/qsign#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F)，感谢作者[kissnavel](https://gitee.com/kissnavels)
+具体请看[教程](https://gitee.com/kissnavel/qsign-core#%E9%83%A8%E7%BD%B2%E6%96%B9%E5%BC%8F)，感谢作者[kissnavel](https://gitee.com/kissnavel)
 
 ### 疑难解答
 
