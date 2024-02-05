@@ -149,7 +149,8 @@ cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.80
 
 ### 资源
 
-* Miao-Yunzai（喵版Yunzai）:  [Gitee](https://gitee.com/yoimiya-kokomi/Miao-Yunzai) / [Github](https://github.com/yoimiya-kokomi/Miao-Yunzai)
+* Miao-Yunzai（喵崽）:  [Gitee](https://gitee.com/yoimiya-kokomi/Miao-Yunzai) / [Github](https://github.com/yoimiya-kokomi/Miao-Yunzai)
+* Trss-Yunzai（Trss崽）：[Gitee](https://gitee.com/TimeRainStarSky/Yunzai) / [Github](https://github.com/TimeRainStarSky/Yunzai)
 * miao-plugin（喵喵插件）: [Gitee](https://gitee.com/yoimiya-kokomi/miao-plugin) / [Github](https://github.com/yoimiya-kokomi/miao-plugin)
 * Yunzai-Bot-plugins-index（插件库）：[Gitee](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index) / [GitHub](https://github.com/yhArcadia/Yunzai-Bot-plugins-index)
 * unidbg-fetch-qsign（签名api项目地址）：[GitHub](https://github.com/fuqiuluo/unidbg-fetch-qsign)  **（已删库）** 
